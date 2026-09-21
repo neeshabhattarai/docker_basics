@@ -162,6 +162,30 @@ docker container inspect <container_name>
 docker run --network <network_name> <image_name>
 ```
 
+## 21. For setting password and username in image
+
+```bash
+docker run -e MONGO_INITDB_ROOT_USERNAME="your username" -e MONGO_INITDB_ROOT_PASSWORD="your password" <image_name>
+```
+
+## 22. for docker compose up
+
+```bash
+docker compose up
+```
+
+## 23. for docker compose down
+
+```bash
+docker compose down
+```
+
+## 24. for remove volumes too
+
+```bash
+docker compose down -v
+```
+
 Containers connected to the same Docker network can communicate with each other using their container names.
 
 Example:
