@@ -186,6 +186,35 @@ docker compose down
 docker compose down -v
 ```
 
+## for creating installation file 
+
+### 1.
+
+```bash
+docker run --name <container_name> -it -d <image_name>
+docker exec -it <container_name>
+```
+
+### 2.
+
+```bash
+docker run -it <image_name> npm init
+```
+
+### 3. to override with bind mount
+
+```bash
+docker run -it <image name> <command>
+```
+
+## 25. for utility container
+
+```bash
+docker-compose up
+docker-compose run npm install
+docker-compose run --rm npm init 
+```
+
 Containers connected to the same Docker network can communicate with each other using their container names.
 
 Example:
