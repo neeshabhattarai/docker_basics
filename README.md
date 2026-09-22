@@ -215,6 +215,12 @@ docker-compose run npm install
 docker-compose run --rm npm init 
 ```
 
+## 26. for utility container from terminal
+
+```bash
+docker run -it --name <container_name> -v path:/app --rm <image_name> <command>
+```
+
 Containers connected to the same Docker network can communicate with each other using their container names.
 
 Example:
