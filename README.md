@@ -248,4 +248,38 @@ mongodb://mongodb:27017
  minikube dashboard
  ```
 
- 
+ ## 3. kubectl to get pods
+
+ ```bash
+ kubectl get pods
+ ```
+
+ ## 4. to create deployment 
+
+ ```bash
+ kubectl create deployment name
+ ```
+
+ ## 5. to expose deployment
+
+ ```bash
+ kubectl expose deployment name --port=port --type="ClusterIP, LoadBalancer"
+ ```
+
+ ## 6. to delete deployment 
+
+ ```bash 
+ kubectl delete deployment name
+ ```
+
+ ## 7. to start service
+
+ ```bash
+minikube service name
+```
+
+## 8. to scale up replica
+
+```bash 
+kubectl scale deployment name --replica=count
+```
