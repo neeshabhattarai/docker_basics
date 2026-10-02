@@ -234,4 +234,18 @@ Another container on the same network can connect using:
 ```text
 mongodb://mongodb:27017
 ```
+# Kubernetes
 
+## 1. to create minikube
+
+```bash
+ minikube start
+ ```
+
+ ## 2. to start dashboard
+
+ ```bash
+ minikube dashboard
+ ```
+
+ 
