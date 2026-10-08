@@ -283,3 +283,18 @@ minikube service name
 ```bash 
 kubectl scale deployment name --replica=count
 ```
+
+## 9. to check status
+```bash
+kubectl rollout status deployment/<deploymentname> 
+```
+
+## 10. to check for the version 
+```bash
+kubectl rollout history deployment
+```
+
+## 11. to expose url 
+```bash
+minikube service <deployment_name>
+```
