@@ -298,3 +298,18 @@ kubectl rollout history deployment
 ```bash
 minikube service <deployment_name>
 ```
+
+## 12. to delete pods ,service from labels
+```bash
+kubectl delete <pods,services> -l key=value
+```
+
+## 13. to create pods,service using file
+```bash
+kubectl apply -f=filename
+```
+
+## 14. to delete pods,service using file
+```bash
+kubectl delete -f=filename
+```
