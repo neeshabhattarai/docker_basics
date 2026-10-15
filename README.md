@@ -313,3 +313,14 @@ kubectl apply -f=filename
 ```bash
 kubectl delete -f=filename
 ```
+
+## 15. to use kubernetes automatic mapping
+```bash
+<SERVICE_NAME>_HOST_SERVICE
+```
+
+## 16. to use domain namespace
+```bash
+<HOST_NAME>.default
+```
+
